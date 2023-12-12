@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>JS ASSIGNMENT 2</title>
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- media link -->
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body
+    class="py-5 m-5 pb-5"
+    style="
+      background-image: url(images/1.jpg);
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    "
+  >
+    <div class="text-center py-5 text-white" id="main">
+      <h1 class="pb-5 py-3 fw-bolder" style="font-size: 70px">
+        Quote of the Day
+      </h1>
+      <p class="pb-3 fs-5 fw-bold">
+        Press the button below to recieve a random quote!
+      </p>
+
+      <button
+        class="btn px-4 p-2 d-flex justify-content-center align-items-center m-auto bg-danger text-white"
+        onclick="userQuote()"
+      >
+        New Quote
+      </button>
+      <p id="hello" class="py-3 fw-bold" style="font-size: 25px"></p>
+      <p id="bye" class="fw-bold" style="font-size: 20px"></p>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
